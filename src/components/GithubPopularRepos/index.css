@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.github-app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.popular-title {
+  font-family: 'Lobster';
+}
+
+.filters-list {
+  list-style-type: none;
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.repos-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
